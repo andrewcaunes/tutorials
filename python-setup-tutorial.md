@@ -71,6 +71,8 @@ A virtual environment is like a clean room for your Python projects:
 - Makes your projects portable
 - Keeps your system Python clean
 
+It's a contained installation of python and packages that you can create, activate, and deactivate as needed.
+
 Basic conda commands:
 ```bash
 # Create a new environment
@@ -97,12 +99,11 @@ VSCode is recommended because it offers:
 
 Installation and setup:
 1. Download from [https://code.visualstudio.com](https://code.visualstudio.com)
-2. Install the "Python" extension from Microsoft
-3. Install "Pylance" for better code intelligence
+2. In the Extensions tab (`Ctrl + Shift + X`), you can install the "Python" extension to get tools for Python development like variable coloring etc.
 
 Essential VSCode features for Python:
 - Code formatting (right-click > Format Document)
-- Integrated terminal (Ctrl+` or Cmd+`)
+- Integrated terminal (Ctrl+J)
 - File explorer (Ctrl+Shift+E or Cmd+Shift+E)
 - Command palette (Ctrl+Shift+P or Cmd+Shift+P)
 
@@ -125,21 +126,21 @@ Essential VSCode features for Python:
 3. **Open VSCode**
    ```bash
    # Open VSCode in current directory
-   code .
+   code . &
    ```
 
 4. **Configure VSCode**
    - Select Python interpreter:
      - Press Ctrl+Shift+P (Cmd+Shift+P on Mac)
      - Type "Python: Select Interpreter"
-     - Choose your conda environment
+     - Choose the interpreter from your conda environment
 
 5. **Start Coding**
    - Create new file: `hello.py`
    - Write code
    - Run using:
      - Terminal command: `python hello.py`
-     - VSCode Run Python File command (Ctrl+F5)
+     - VSCode Run Python File command
 
 ## Next Steps
 
