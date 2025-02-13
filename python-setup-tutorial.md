@@ -2,13 +2,13 @@
 
 ## Introduction
 
-This guide will help you set up your Python development environment and understand the basics of running Python code. We'll cover everything from installing Python to using professional development tools that will make your coding journey easier.
+This guide will help you set up your Python development environment and understand the basics of running Python code. We'll very briefly cover how to run python code, python environments with conda and the vscode IDE.
 
 ## Part 1: Understanding Python
 
 ### What is Python?
 
-Python is a programming language that needs to be installed on your computer to run Python code. Think of it like a translator that converts the code you write into instructions your computer can understand.
+Python is a programming language that needs to be installed on your computer to run Python code.
 
 ### Running Python Code
 
@@ -19,6 +19,7 @@ There are two main ways to run Python code:
    - Type `python` and press Enter
    - You'll see a prompt (`>>>`) where you can type Python commands
    - This is great for quick experiments and learning
+   If this doesn't work, you might not have python installed on you computer. In this case, you can either install it or directly install Miniconda (see below) which comes with python.
 
 2. **Running Python Files**
    - Create a file with `.py` extension (e.g., `my_program.py`)
@@ -73,7 +74,7 @@ A virtual environment is like a clean room for your Python projects:
 Basic conda commands:
 ```bash
 # Create a new environment
-conda create -n my_project python=3.9
+conda create -n my_project python=3
 
 # Activate the environment
 conda activate my_project
